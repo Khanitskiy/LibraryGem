@@ -1,3 +1,4 @@
+module LibraryGem
 class SaveData
   
   DATA = 'data'
@@ -26,4 +27,5 @@ class SaveData
     end
   end
 
+end
 end
