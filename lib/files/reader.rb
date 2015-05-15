@@ -1,3 +1,4 @@
+module LibraryGem
 class Reader
   attr_accessor :name, :email, :city, :street, :house
 
@@ -8,4 +9,5 @@ class Reader
   	@street  = options[:street]
   	@house   = options[:house]
   end
+end
 end
