@@ -1,3 +1,4 @@
+module LibraryGem
 class Library
 
   require_relative 'book'
@@ -43,4 +44,5 @@ class Library
     result_count.count
   end
   
+end
 end
