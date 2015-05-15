@@ -1,3 +1,4 @@
+module LibraryGem
 class InitializationData
 
   DATA = 'data'
@@ -51,4 +52,5 @@ class InitializationData
     return @author_items
   end
 
+end
 end
