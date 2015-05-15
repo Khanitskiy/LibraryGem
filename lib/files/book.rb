@@ -1,3 +1,4 @@
+module LibraryGem
 class Book
   attr_accessor :title, :author
 
@@ -5,4 +6,5 @@ class Book
   	@title = options[:title]
   	@author= options[:author]
   end
+end
 end
