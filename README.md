@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'library_gem'
+gem 'library_gem', :git => 'https://github.com/Khanitskiy/LibraryGem.git'
 ```
 
 And then execute:
