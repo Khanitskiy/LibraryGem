@@ -1,3 +1,4 @@
+module LibraryGem
 class Order
   attr_accessor :book, :reader, :date
 
@@ -6,4 +7,5 @@ class Order
   	@reader = options[:reader]
   	@date   = options[:date]
   end
+end
 end
